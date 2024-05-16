@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.first,
+.second {
+    width: 80%;
+    margin: auto;
+}
+
+.first {
+    height: 7%;
+}
+
+.first form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first input {
+    width: 90%;
+    padding: 10px 0;
+}
+
+.first button {
+    width: 10%;
+    background-color: navy;
+    color: white;
+    border: none;
+}
+
+.second {
+    height: 90%;
+    overflow: auto;
+}
+
+.second::-webkit-scrollbar {
+    display: none;
+}
+
+.second table {
+    width: 100%;
+}
+
+.second tr {
+    background-color: lightgray;
+}
+
+.second tr:nth-child(odd) {
+    background-color: gray;
+    color: white;
+}
+
+.second th,
+td {
+    padding: 10px;
+}
+
+#flags {
+    height: 200px;
+    width: 500px;
+}
+
+.second a {
+    text-decoration: none;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
