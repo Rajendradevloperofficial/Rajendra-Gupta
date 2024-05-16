@@ -1,75 +1,66 @@
-* {
-    margin: 0;
+.background{
+    
+    box-shadow: 0 0 8px 0 rgb(0, 0, 0, 0.2);
+    background-color:white;
 }
-
-.main {
-    width: 100vw;
-    height: 100vh;
-    background-color: gray;
+.backround-h{
+    background-color: rgb(112, 140, 113);
+    color: white;
 }
-
-.first,
-.second {
-    width: 80%;
-    margin: auto;
+.card-title{
+    font-size: 16px;
+    height: 100px;
 }
-
-.first {
-    height: 7%;
+.card-text{
+    font-size: 14px;
+    height: 150px;
+    text-overflow: initial;
 }
-
-.first form {
+ .items {
     display: flex;
     justify-content: space-between;
+    margin-bottom: -25px;
+ }
+.items p{
+    font-size: 10px;
 }
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .card-title {
+            height: 70px;
+        }
+    .card-text {
+        
+            height: 150px;
+    }
+    
+} 
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .card-title {
+        height: 70px;
+    }
 
-.first input {
-    width: 90%;
-    padding: 10px 0;
+    .card-text {
+
+        height: 150px;
+    }
 }
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .card-title {
+        height: 60px;
+    }
 
-.first button {
-    width: 10%;
-    background-color: navy;
-    color: white;
-    border: none;
+    .card-text {
+
+        height: 120px;
+    }
 }
+@media only screen and (min-width: 0px) and (max-width:575px) {
+    .card-title {
+        height: 50px;
+    }
 
-.second {
-    height: 90%;
-    overflow: auto;
-}
+    .card-text {
 
-.second::-webkit-scrollbar {
-    display: none;
-}
-
-.second table {
-    width: 100%;
-}
-
-.second tr {
-    background-color: lightgray;
-}
-
-.second tr:nth-child(odd) {
-    background-color: gray;
-    color: white;
-}
-
-.second th,
-td {
-    padding: 10px;
-}
-
-#flags {
-    height: 200px;
-    width: 500px;
-}
-
-.second a {
-    text-decoration: none;
-    background-color: navy;
-    color: white;
-    padding: 10px;
+        height: 80px;
+    }
 }

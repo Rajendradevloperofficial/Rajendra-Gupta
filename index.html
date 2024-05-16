@@ -1,95 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rest Country API</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="main">
-        <div class="first">
-            <form onsubmit="getAPIData();return false">
-                <input type="search" id="search" placeholder="Enter Country Name to Search  : ">
-                <button type="submit">Search</button>
-            </form>
-        </div>
-        <div class="second">
-            <table>
-                <tr>
-                    <th>Official Name</th>
-                    <td id="name"></td>
-                </tr>
-                <tr>
-                    <th>Capital</th>
-                    <td id="capital"></td>
-                </tr>
-                <tr>
-                    <th>Flag</th>
-                    <td><img id="flags" alt=""></td>
-                </tr>
-
-                <tr>
-                    <th>Area</th>
-                    <td id="area"></td>
-                </tr>
-
-                <tr>
-                    <th>Population</th>
-                    <td id="population"></td>
-                </tr>
-
-                <tr>
-                    <th>Region</th>
-                    <td id="region"></td>
-                </tr>
-
-                <tr>
-                    <th>Sub Region</th>
-                    <td id="subregion"></td>
-                </tr>
-
-                <tr>
-                    <th>Continents</th>
-                    <td id="continents"></td>
-                </tr>
-
-                <tr>
-                    <th>Border</th>
-                    <td id="borders"></td>
-                </tr>
-
-                <tr>
-                    <th>Timezones</th>
-                    <td id="timezones"></td>
-                </tr>
-
-                <tr>
-                    <th>Landlocked</th>
-                    <td id="landlocked"></td>
-                </tr>
-
-                <tr>
-                    <th>UnMember</th>
-                    <td id="unMember"></td>
-                </tr>
-
-                <tr>
-                    <th>Independent</th>
-                    <td id="independent"></td>
-                </tr>
-
-                <tr>
-                    <th>Maps</th>
-                    <td><a id="maps">View Map</a></td>
-                </tr>
-
-            </table>
-        </div>
-    </div>
-    <script src="main.js"></script>
-</body>
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      
+      content="Web site created using create-react-app" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css"></link>
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
